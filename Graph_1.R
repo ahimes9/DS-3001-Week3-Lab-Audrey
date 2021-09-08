@@ -12,7 +12,7 @@ arrests <- read_csv("USArrests.csv")
 library(ggplot2)
 
 # creating a bar graph
-plot <- ggplot(arrests, aes(x=Assault)) + geom_histogram(bins = 10)
+plot <- ggplot(arrests, aes(x=Assault)) + geom_histogram(bins = 12)
 plot
 
 ## STEP 3: Audrey
